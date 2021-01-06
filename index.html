@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .nn{
+        position: absolute;
+        left: 45%;
+        top: 220px;
+    }
+    .nn1{
+        position: absolute;
+        left: 45%;
+        top: 770px;
+    }
+    .nn2{
+        position: absolute;
+        left: 45%;
+        top: 1290px;
+    }
+.collapsible {
+    
+    position: relative;
+    top: 20%;
+    width: 750px;
+    background-color: antiquewhite;
+    color: sienna;
+    cursor: pointer;
+    padding: 18px;
+    border: 5px solid rgb(214, 169, 118, 0.8);
+    border-radius: 10px;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+.active, .collapsible:hover {
+    background-color: rgb(236, 200, 82);
+}
+.content {
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 700px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(182, 145, 103);
+}
+body{
+            overflow-x: hidden;
+        background-attachment: fixed;
+            
+}
+.text{
+    position: relative;
+    width: auto;
+    margin-top: 200px;
+}
+
+
+.a{
+    position: absolute;
+    top: 3%;
+    left: 11%;
+    width: 1200px;
+    height: 80px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(214, 169, 118, 0.8);
+    transition: all .8s ease-out;
+    transform:scale(1,1);
+
+        }
+        .a:hover{
+            transform:scale(1.1,1.1);
+        }
+        .a,h1:hover{
+            transition: all .3s ease-out;
+            transform:scale(1,2);
+        }
+        .a,h1:hover{
+            transform:scale(1.2,1.2);
+        }
+        img{
+            position: relative;
+            left: 8%;
+            margin-top:15% ;
+            width: 30%;
+            transition: all .3s ease-out;
+            transform:scale(1,1);
+        }
+        img:hover{
+            transform:scale(1.2,1.2);
+        }
+     
+        .title1{
+            position: absolute;
+            top: 15%;
+            left: 60%;
+            font-size: 26px;
+            margin-top: 20px;
+            margin-bottom: 40%;
+            border: 5px solid sienna;
+            border-style: dashed;
+            border-radius: 10px;
+            padding: 10px;
+            letter-spacing: 2px;
+        }
+        .title1:hover{
+            color: white;
+        }
+        .title2{
+            position: absolute;
+            top: 90%;
+            left: 62%;
+            font-size: 26px;
+            margin-top: 20px;
+            margin-bottom: 40%;
+            border: 5px solid sienna;
+            border-style: dashed;
+            border-radius: 10px;
+            padding: 10px;
+            letter-spacing: 2px;
+        }
+        .title2:hover{
+            color: white;
+        }
+        .title3{
+            position: absolute;
+            top: 160%;
+            left: 62%;
+            font-size: 26px;
+            margin-top: 20px;
+            margin-bottom: 40%;
+            border: 5px solid sienna;
+            border-style: dashed;
+            border-radius: 10px;
+            padding: 10px;
+            letter-spacing: 2px;
+        }
+        .title3:hover{
+            color: white;
+        }
+        .title4{
+            position: absolute;
+            top: 250%;
+            left: 5%;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 40%;
+            margin-right: 5%;
+            border: 5px solid sienna;
+            border-style: none;
+            padding: 10px;
+            letter-spacing: 2px;
+        }
+        .title3:hover{
+            color: white;
+        }
+ 
+        .come{
+            font-size: 20px;
+            position: absolute;
+            left: 8%;
+            top: 190%;
+            padding-bottom:10% ;
+
+        }
+</style>
+</head>
+<body background="back.jpg">
+
+<div class="nn">
+    <p style="font-size: 20px;"><b>先後遭逢 2001 年全球資訊產業泡沫化及美國 911 恐怖攻擊事件、2003年 SARS 疫情蔓延，以及 2008 年全球金融海嘯影響，經濟成長趨緩，此一時期平均每年經濟成長率為 3.4%。</b> </p>
+<button class="collapsible"><b>2001年</b> </button>
+<div class="content">
+  <p>因全球資訊產業泡沫化，台灣經濟衰退主要受累於民間消費與固定資本形成。從2000年第一季到2001年第一季，台灣民間消費成長率從7.5%衰退到1.9%，固定資本形成成長率從9.5%衰退到負8.1%</p>
+</div>
+<button class="collapsible"><b>2003年</b></button>
+<div class="content">
+  <p>受SARS疫情影響，台灣第二季外銷接單減少10.8億美元；其中，來自美國的訂單減少2億美元，流失量較前一季度增加8000萬美元；而減少最多的則是來自祖國大陸和香港的訂單，合計高達5.8億美元，流失量較前一季度增加1.1億美元。</p>
+</div>
+<button class="collapsible"><b>2008年</b> </button>
+<div class="content">
+  <p>國際金融海嘯席捲全球明顯衝擊經濟基本
+    面表現，失業率攀升，加以爆發毒奶事件，民間消費出現 2003 年第二
+    4季以來之首見負成長 1.97%，且預期第四季民間消費仍將持續負成長
+    1.86%。併計全年，主計處估計 97 年民間消費將出現有史以來首見之負
+    成長 0.3%，其中食品消費跌幅更達 0.92%。</p>
+</div>
+</div>
+
+<div class="nn1">
+    <p style="font-size: 20px;"><b>在輸出入占GDP比例提高、工業比重下滑、外籍勞工占就業人數比例上升與景氣趨
+        緩等因素的綜合影響，台灣總體產出變動與失業率的互動關係有轉弱的現象</b> </p>
+<button class="collapsible"><b>2001年</b> </button>
+<div class="content">
+  <p>在資訊泡沫化後，在國際經濟景氣驟降與
+    國內需求不振等不利因素影響下，失業率持續攀升至91年8月達5.35%，創下歷史新高，其後雖隨景氣復甦，失業情勢漸呈好轉，92年失業率回降至4.99%，95年及96年降至3.91%。</p>
+</div>
+<button class="collapsible"><b>2003年</b></button>
+<div class="content">
+  <p>九十二年平均失業率為 4.99％，較上年下降 0.18 個百
+    分點，係六十七年以來之次高水準（九十一年為 5.17％），其中
+    男性為 5.51％，較上年下降 0.40 個百分點；女性為 4.25％，則
+    上升 0.15 個百分點。</p>
+</div>
+<button class="collapsible"><b>2008年</b> </button>
+<div class="content">
+  <p>97年下半年因美國次級房貸風暴對金融與信用市場衝擊未歇，衍生效應擴及全球，演變為全球性金融海嘯風暴。導致97年9月起失業人數節節攀升，失業率急轉直上，97年12月升至5.03%。98年上半年續受國際金融海嘯影響，全球景氣持續低迷，失業率逐漸上升，於98年8月達6.13%，創下歷年新高。</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="nn2">
+    <p style="font-size: 20px;"><b> 1995 年以前臺灣失業率大致維
+        持在 1.5 至 2.0% 之間；其後，受產業結構持續轉型影響，失業率呈階段性上升</b></p>
+    <button class="collapsible"><b>1999年~2006年</b> </button>
+    <div class="content">
+      <p>WPI 受國際原物料上漲影響，上漲
+        率平均為 2.3%；相較之下，CPI 則
+        因 2000 年全球資訊產業泡沫化衝
+        擊，2001年零成長，2002至2003
+        年連續 2 年負成長，平均每年僅上漲
+        0.8%。</p>
+    </div>
+    <button class="collapsible"><b>2007年~2012年</b></button>
+    <div class="content">
+      <p>物價水準雖受國際原油及原物料價格
+        上揚影響而一度攀升，但在政府積極
+        採取各項穩定措施下，仍維持平穩，
+        CPI 平均僅上漲 1.5%，遠低於香港
+        （3.1%）、 新 加 坡（3.6%） 及 南 韓
+        （3.2%），在亞洲四小龍中物價波動
+        程度最小。</p>
+    </div>
+    <button class="collapsible"><b>2013~2019年</b> </button>
+    <div class="content">
+      <p>2013 年以來，物價持續維持平穩，
+        CPI 平均僅上漲 1.0%，遠低於香
+        港 (3.4%)、新加坡 (1.9%) 及南韓
+        (1.9%)。</p>
+    </div>
+    </div>
+    </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<div>
+<div class="a">
+    <h1 style="text-align: center;">1999~2019 台灣總體經濟表現</h1>
+</div>
+<img src="01.png" alt="">
+<div class="b"> 
+    
+</div>
+<img src="02.png" alt="">
+<div class="c">
+    
+</div>
+<img src="03.png" alt="">
+<div class="d">
+    
+</div>
+</div>
+<div class="aa">
+    <b class="title1">台灣經濟成長率</b>
+    <div>
+        
+    </div>
+    <b class="title2">台灣失業率</b>
+    <div>
+      
+    </div>
+    <b class="title3">台灣物價上漲率</b>
+    <div>
+     
+    </div> 
+    <b class="title4">資料來源:
+        https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNjIwOS8yMDU3OS8wMDE5ODIyXzEucGRm&n=MjAxM%2BWPsOeBo%2Be2k%2Ba%2Fn%2BeZvOWxleatt%2Beoi%2BiIh%2BetlueVpS5wZGY%3D&icon=..pdf
+        https://www.stat.gov.tw/public/Attachment/5312103724VTN8T5VB.pdf</b>
+        <div>
+
+    </div>
+
+
+
+</body>
+</html>
